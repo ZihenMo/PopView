@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PopView_Example' do
+  pod 'PopView', :path => '../'
+
+  target 'PopView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
