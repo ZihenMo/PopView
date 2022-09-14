@@ -101,7 +101,7 @@
 		2F9D29EF1D9152B72FAD84BF10CDB0F6 /* PopView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopView; path = PopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F381308E43762010214153C9A97398 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
 		32BD1538C2397C49B9694928867B2332 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIImageExtension.swift; sourceTree = "<group>"; };
-		36DE7F673819103A0F9B00FC6BB9D580 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36DE7F673819103A0F9B00FC6BB9D580 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3A04347F2F229CAB76627E599DE3D0C0 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
 		3B0AB168D1AABB5E086C099DECD189AD /* SFSymbol+2.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+2.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+2.0.swift"; sourceTree = "<group>"; };
 		3BC426A461B1312F238D342A2205EBC7 /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplicationShortcutIconExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		6143D188B5689C20CB984C2CEA145972 /* Pods-PopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		65A9E42E04CB4407AFDA9A3DB7827699 /* UIButtonExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIButtonExtension.swift; sourceTree = "<group>"; };
 		67949D93E5FA4431DD2A855608C50969 /* SFSymbol+AllSymbols+3.3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+3.3.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+3.3.swift"; sourceTree = "<group>"; };
-		6C96165C6555EE6EFADBEFE07A441DE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C96165C6555EE6EFADBEFE07A441DE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F362EFE19A939D22099C07896987BDD /* SFSafeSymbols.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSafeSymbols.release.xcconfig; sourceTree = "<group>"; };
 		6F4A813E4F2D58245F6240208CA6E0D3 /* SymbolLocalizations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolLocalizations.swift; path = Sources/SFSafeSymbols/Symbols/SymbolLocalizations.swift; sourceTree = "<group>"; };
 		7072B4FBAA51FA853C4795FA1623076C /* PopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopView.modulemap; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 		9674A65903BFC551B47FEFE512F9D021 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
 		97B598D552B4A5679D4FA3DC76D18255 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
 		9AFBA3439ECA534FF3C16FD62E12A08E /* SFSafeSymbols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSafeSymbols-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD4B0D3CAB4602AEB9B6A461CBB47ABA /* Pods-PopView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PopView_Example"; path = Pods_PopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15E01B44EB8BCA40DCD16267210446B /* PopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B15E01B44EB8BCA40DCD16267210446B /* PopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PopView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B51977D17CBE1276C18356A0F6B42055 /* SFSymbol+AllSymbols+1.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+1.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+1.1.swift"; sourceTree = "<group>"; };
 		B5E06C911B9E0D3C7361DE1BE027D9A7 /* SFSymbol+2.2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+2.2.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+2.2.swift"; sourceTree = "<group>"; };
 		B82AE1558C5612349DB3DD2BD3FE4720 /* SFSymbol+3.3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+3.3.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+3.3.swift"; sourceTree = "<group>"; };
@@ -323,7 +323,6 @@
 				32BD1538C2397C49B9694928867B2332 /* UIImageExtension.swift */,
 				A17DE76E4EC34E734D2C72D2576E0095 /* Support Files */,
 			);
-			name = SFSafeSymbols;
 			path = SFSafeSymbols;
 			sourceTree = "<group>";
 		};
@@ -384,7 +383,6 @@
 				31F381308E43762010214153C9A97398 /* Then.swift */,
 				E2725C5F267DFA3D8E511158FBA7DAFB /* Support Files */,
 			);
-			name = Then;
 			path = Then;
 			sourceTree = "<group>";
 		};
@@ -872,8 +870,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
