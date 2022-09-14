@@ -1,0 +1,96 @@
+(source_file "main.swift"
+  (import_decl range=[main.swift:9:1 - line:9:8] 'Foundation')
+  (top_level_code_decl range=[main.swift:12:1 - line:12:78]
+    (brace_stmt implicit range=[main.swift:12:1 - line:12:78]
+      (call_expr type='<null>' arg_labels=forKey:value:table:
+        (unresolved_dot_expr type='<null>' field 'localizedString' function_ref=single
+          (unresolved_dot_expr type='<null>' field 'main' function_ref=unapplied
+            (error_expr implicit type='<null>')))
+        (tuple_expr type='<null>' names=forKey,value,table
+          (string_literal_expr type='<null>' encoding=utf8 value="hello" builtin_initializer=**NULL** initializer=**NULL**)
+          (string_literal_expr type='<null>' encoding=utf8 value="hello" builtin_initializer=**NULL** initializer=**NULL**)
+          (string_literal_expr type='<null>' encoding=utf8 value="PopView" builtin_initializer=**NULL** initializer=**NULL**))))))(source_file "main.swift"
+  (import_decl range=[main.swift:9:1 - line:9:8] 'Foundation')
+  (extension_decl range=[main.swift:14:1 - line:19:1] String
+    (func_decl range=[main.swift:15:1 - line:18:1] "localized()" interface type='(String) -> () -> String' access=internal
+      (parameter "self" type='String' interface type='String')
+      (parameter_list range=[main.swift:15:15 - line:15:16])
+      (result
+        (type_ident
+          (component id='String' bind=Swift.(file).String)))
+      (brace_stmt range=[main.swift:15:28 - line:18:1]
+        (pattern_binding_decl range=[main.swift:16:5 - line:16:15]
+          (pattern_named type='String' 'key')
+          Original init:
+          (unresolved_decl_ref_expr type='<null>' name=self function_ref=unapplied)
+          Processed init:
+          (declref_expr type='String' location=main.swift:16:15 range=[main.swift:16:15 - line:16:15] decl=PopView.(file).String extension.localized().self@main.swift:15:6 function_ref=unapplied))
+
+        (var_decl range=[main.swift:16:9 - line:16:9] "key" type='String' interface type='String' access=private let readImpl=stored immutable)
+
+        (return_stmt range=[main.swift:17:5 - line:17:77]
+          (call_expr type='<null>' arg_labels=forKey:value:table:
+            (unresolved_dot_expr type='<null>' field 'localizedString' function_ref=single
+              (unresolved_dot_expr type='<null>' field 'main' function_ref=unapplied
+                (error_expr implicit type='<null>')))
+            (tuple_expr type='<null>' names=forKey,value,table
+              (declref_expr type='<null>' decl=PopView.(file).String extension.localized().key@main.swift:16:9 function_ref=unapplied)
+              (declref_expr type='<null>' decl=PopView.(file).String extension.localized().key@main.swift:16:9 function_ref=unapplied)
+              (string_literal_expr type='<null>' encoding=utf8 value="nil" builtin_initializer=**NULL** initializer=**NULL**)))))))
+  (top_level_code_decl range=[main.swift:22:1 - line:22:26]
+    (brace_stmt implicit range=[main.swift:22:1 - line:22:26]
+      (call_expr type='()' location=main.swift:22:1 range=[main.swift:22:1 - line:22:26] nothrow arg_labels=_:
+        (declref_expr type='(Any..., String, String) -> ()' location=main.swift:22:1 range=[main.swift:22:1 - line:22:1] decl=Swift.(file).print(_:separator:terminator:) function_ref=single)
+        (tuple_expr type='(Any..., separator: String, terminator: String)' location=main.swift:22:6 range=[main.swift:22:6 - line:22:26] names='',separator,terminator
+          (vararg_expansion_expr implicit type='[Any]' location=main.swift:22:7 range=[main.swift:22:7 - line:22:25]
+            (array_expr implicit type='[Any]' location=main.swift:22:7 range=[main.swift:22:7 - line:22:25] initializer=**NULL**
+              (erasure_expr implicit type='Any' location=main.swift:22:15 range=[main.swift:22:7 - line:22:25]
+                (call_expr type='String' location=main.swift:22:15 range=[main.swift:22:7 - line:22:25] nothrow arg_labels=
+                  (dot_syntax_call_expr type='() -> String' location=main.swift:22:15 range=[main.swift:22:7 - line:22:15] nothrow
+                    (declref_expr type='(String) -> () -> String' location=main.swift:22:15 range=[main.swift:22:15 - line:22:15] decl=PopView.(file).String extension.localized()@main.swift:15:6 function_ref=single)
+                    (string_literal_expr type='String' location=main.swift:22:7 range=[main.swift:22:7 - line:22:7] encoding=utf8 value="hello" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**))
+                  (tuple_expr type='()' location=main.swift:22:24 range=[main.swift:22:24 - line:22:25])))))
+          (default_argument_expr implicit type='String' location=main.swift:22:6 range=[main.swift:22:6 - line:22:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=1)
+          (default_argument_expr implicit type='String' location=main.swift:22:6 range=[main.swift:22:6 - line:22:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=2))))))(source_file "main.swift"
+  (import_decl range=[main.swift:9:1 - line:9:8] 'Foundation')
+  (extension_decl range=[main.swift:14:1 - line:19:1] String
+    (func_decl range=[main.swift:15:1 - line:18:1] "localized()" interface type='(String) -> () -> String' access=internal
+      (parameter "self" type='String' interface type='String')
+      (parameter_list range=[main.swift:15:15 - line:15:16])
+      (result
+        (type_ident
+          (component id='String' bind=Swift.(file).String)))
+      (brace_stmt range=[main.swift:15:28 - line:18:1]
+        (pattern_binding_decl range=[main.swift:16:5 - line:16:15]
+          (pattern_named type='String' 'key')
+          Original init:
+          (unresolved_decl_ref_expr type='<null>' name=self function_ref=unapplied)
+          Processed init:
+          (declref_expr type='String' location=main.swift:16:15 range=[main.swift:16:15 - line:16:15] decl=PopView.(file).String extension.localized().self@main.swift:15:6 function_ref=unapplied))
+
+        (var_decl range=[main.swift:16:9 - line:16:9] "key" type='String' interface type='String' access=private let readImpl=stored immutable)
+
+        (return_stmt range=[main.swift:17:5 - line:17:77]
+          (call_expr type='<null>' arg_labels=forKey:value:table:
+            (unresolved_dot_expr type='<null>' field 'localizedString' function_ref=single
+              (unresolved_dot_expr type='<null>' field 'main' function_ref=unapplied
+                (error_expr implicit type='<null>')))
+            (tuple_expr type='<null>' names=forKey,value,table
+              (declref_expr type='<null>' decl=PopView.(file).String extension.localized().key@main.swift:16:9 function_ref=unapplied)
+              (declref_expr type='<null>' decl=PopView.(file).String extension.localized().key@main.swift:16:9 function_ref=unapplied)
+              (string_literal_expr type='<null>' encoding=utf8 value="nil" builtin_initializer=**NULL** initializer=**NULL**)))))))
+  (top_level_code_decl range=[main.swift:22:1 - line:22:26]
+    (brace_stmt implicit range=[main.swift:22:1 - line:22:26]
+      (call_expr type='()' location=main.swift:22:1 range=[main.swift:22:1 - line:22:26] nothrow arg_labels=_:
+        (declref_expr type='(Any..., String, String) -> ()' location=main.swift:22:1 range=[main.swift:22:1 - line:22:1] decl=Swift.(file).print(_:separator:terminator:) function_ref=single)
+        (tuple_expr type='(Any..., separator: String, terminator: String)' location=main.swift:22:6 range=[main.swift:22:6 - line:22:26] names='',separator,terminator
+          (vararg_expansion_expr implicit type='[Any]' location=main.swift:22:7 range=[main.swift:22:7 - line:22:25]
+            (array_expr implicit type='[Any]' location=main.swift:22:7 range=[main.swift:22:7 - line:22:25] initializer=**NULL**
+              (erasure_expr implicit type='Any' location=main.swift:22:15 range=[main.swift:22:7 - line:22:25]
+                (call_expr type='String' location=main.swift:22:15 range=[main.swift:22:7 - line:22:25] nothrow arg_labels=
+                  (dot_syntax_call_expr type='() -> String' location=main.swift:22:15 range=[main.swift:22:7 - line:22:15] nothrow
+                    (declref_expr type='(String) -> () -> String' location=main.swift:22:15 range=[main.swift:22:15 - line:22:15] decl=PopView.(file).String extension.localized()@main.swift:15:6 function_ref=single)
+                    (string_literal_expr type='String' location=main.swift:22:7 range=[main.swift:22:7 - line:22:7] encoding=utf8 value="hello" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**))
+                  (tuple_expr type='()' location=main.swift:22:24 range=[main.swift:22:24 - line:22:25])))))
+          (default_argument_expr implicit type='String' location=main.swift:22:6 range=[main.swift:22:6 - line:22:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=1)
+          (default_argument_expr implicit type='String' location=main.swift:22:6 range=[main.swift:22:6 - line:22:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=2))))))

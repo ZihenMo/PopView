@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B3938AE56C955105C94B02A9E94A49 /* SFSymbol+AllSymbols+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B7D1E62E1DB2CF522711F2F3EFF938 /* SFSymbol+AllSymbols+3.0.swift */; };
+		1FAC7DC7B9E5D02802FAB2E398D99AB3 /* SFSymbol+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82AE1558C5612349DB3DD2BD3FE4720 /* SFSymbol+3.3.swift */; };
+		2141C56F9C9541B483C2252034A14B4F /* Pods-PopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC24635AAF83A481429CF01D901B452 /* Pods-PopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5356DAB8171FE0321B5BAFC2499A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		3EB2BE8562EE2F5A0008C9A124F9CDC4 /* SFSymbol+AllSymbols+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1D86AD90DDD660BD2D94B8BC8F026 /* SFSymbol+AllSymbols+1.0.swift */; };
+		46E3CD6BD31D8CE3182C1686BF64C698 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD1538C2397C49B9694928867B2332 /* UIImageExtension.swift */; };
+		554100C256B1E92286A7A6BB57CB410E /* SFSymbol+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18408B76BC99172F5AAFEE491A25F289 /* SFSymbol+1.0.swift */; };
+		56CC33575296048F34D8A04C7DE8F9BA /* SwiftUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0194B6E66324D95E315673E3061A1 /* SwiftUILabelExtension.swift */; };
+		59104B7946880302EC3BBD903BD22316 /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53291C32A17C244BBAC2EAD8D4482B56 /* SFSymbol+AllSymbols+2.0.swift */; };
+		5F13938FF0703CDD30588165725F2D64 /* SFSafeSymbols-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EC2991171D0626DCEEF29A30CC8390 /* SFSafeSymbols-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F68C737D9ADFA52133DB89CABE052C6 /* SFSymbol+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AB168D1AABB5E086C099DECD189AD /* SFSymbol+2.0.swift */; };
+		6DEC81F2845EFA3A7B10984C8FBA98BC /* SFSymbol+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EE21E692609116A36E6C77E42F5FD8 /* SFSymbol+2.1.swift */; };
+		6EB257B756FA08C77A32331E7C3269FE /* SFSafeSymbols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F9802873397AC3766FC62622872034 /* SFSafeSymbols-dummy.m */; };
+		7409EF68CE4D650B3EBF13914AA7419D /* SFSymbol+AllSymbols+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A273530D0650C83A97D35B7330ECD1A /* SFSymbol+AllSymbols+3.1.swift */; };
+		76B6C0AB5B1C553D07F9640C109C64A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		77036F896B70B09F32E0C55491FF3873 /* SFSymbol+AllSymbols+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8742A550CBE092D8815214FFAAD3EC1F /* SFSymbol+AllSymbols+3.2.swift */; };
+		77AA424D6D238584808E2FF8333738C7 /* SymbolLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A813E4F2D58245F6240208CA6E0D3 /* SymbolLocalizations.swift */; };
+		780AE74FDA2A8813299916A9520AAECC /* SFSymbol+AllSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF693F83087C7CE64AF6D65B2F2FD92 /* SFSymbol+AllSymbols.swift */; };
+		8517B7F7212B597F80A71617A6FAB6FB /* SFSymbol+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E06C911B9E0D3C7361DE1BE027D9A7 /* SFSymbol+2.2.swift */; };
+		885CCDA6AE02D3F86E781DBD046ABDD2 /* PopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9106808C29595EBB99ABC116576CF492 /* PopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FFEACF203811664B2FDA2FE0C0AE6F5 /* SFSymbol+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24354813A412519D98287D1ADA1E9E /* SFSymbol+3.2.swift */; };
+		99C4108D4225F090069F5E8539D69774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9A9318B1684B940F743E79F8AE009747 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01C5F2BEC7585974E4B53B27BD920E /* PopView.swift */; };
+		A114D23A6598CE68B1F6C079BC6EB3CD /* SFSymbol+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D6735A91D5CC6ED1BBA793D1143AD8 /* SFSymbol+3.1.swift */; };
+		B4B16DD0AF7E8A321E50EBC78EED320C /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9E42E04CB4407AFDA9A3DB7827699 /* UIButtonExtension.swift */; };
+		BE4BCEF8FF546E7025EFFC754977A948 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5B07ACC795788C69417F6EE25F906 /* NSImageExtension.swift */; };
+		C2EEEC6B170326DB75A007E54A39A35F /* PopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2037D882016ED0B71419D93A6580221C /* PopView-dummy.m */; };
+		CA5B8C830BE49E84A5DB22046251145C /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ACB92499ED5A9A5E93D90F719AFDE5 /* SwiftUIImageExtension.swift */; };
+		CAA1BA5E9AE9ECA17DD4E60DD065BA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CB2C693347E87D62E832D73D1C0A379E /* SFSymbol+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612B68ADB82114E23ACE3C73CA15A5B /* SFSymbol+3.0.swift */; };
+		CB8FBB1FD4F4BDE3DD782D6A168F58DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CDF5FBEC313E3FE79EF39234534D7498 /* SFSymbol+AllSymbols+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4ACAEE5B1250B64BAB6D57174AD6F7 /* SFSymbol+AllSymbols+2.1.swift */; };
+		D28252022C797C79D4156D054D4B32DF /* SFSymbol+AllSymbols+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51977D17CBE1276C18356A0F6B42055 /* SFSymbol+AllSymbols+1.1.swift */; };
+		D2A9DE0C3A55FF00BBF3AEF031367879 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB06BF1FE19149635783B3C70F1F5C /* SFSymbol.swift */; };
+		D60614D98D7F7D2B1125870B1EA7B168 /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC426A461B1312F238D342A2205EBC7 /* UIApplicationShortcutIconExtension.swift */; };
+		E8087E2C6A8C9D1CFE5E753F04F0EF0B /* SFSymbol+AllSymbols+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01399D2930A4C51E8890B9752148C4E2 /* SFSymbol+AllSymbols+2.2.swift */; };
+		E833AAB76D7B758328C50FDE038A364F /* SymbolWithLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB68135B21F6CCD9B43189169B361DD /* SymbolWithLocalizations.swift */; };
+		EFA667F9E4CD9886C132CCDDB014E5E0 /* SFSymbol+AllSymbols+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67949D93E5FA4431DD2A855608C50969 /* SFSymbol+AllSymbols+3.3.swift */; };
+		FA0ABF8D633CE7E3072A6DFBFD1AC7F8 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9674A65903BFC551B47FEFE512F9D021 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB33F46E0E91812F1225566C874F2D2D /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A04347F2F229CAB76627E599DE3D0C0 /* Then-dummy.m */; };
+		FBD934C09A0AC21F278703455047D71E /* SFSymbol+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003A9B52FF2D0974B364DB4739887CF /* SFSymbol+1.1.swift */; };
+		FE8B5E3A0C487D948280653113044C92 /* Pods-PopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF43AD27CF3459BE5F3BADE4FDA871 /* Pods-PopView_Example-dummy.m */; };
+		FE947F2CAD875D561F81DE275A0671CD /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F381308E43762010214153C9A97398 /* Then.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EAAA2C051679294E6326B18CF620773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		4E091DD83C3AF9BDA0C77692A366B918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1282B8776A6EFDCCBE1858E8F673D0A4;
+			remoteInfo = SFSafeSymbols;
+		};
+		7DB57A336E59800B580B921407E29E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		7E22D3B15C471204C6009F6FA0E9DB5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC89DC039C58D8AB2F9D8735EABB6B8F;
+			remoteInfo = PopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DE9679A51CA4402E3F7FE9F117E108 /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
+		01399D2930A4C51E8890B9752148C4E2 /* SFSymbol+AllSymbols+2.2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+2.2.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+2.2.swift"; sourceTree = "<group>"; };
+		017B01BC2C04249B40E56962E4F8BA82 /* PopView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopView-Info.plist"; sourceTree = "<group>"; };
+		0D4D1D2BD174FB2195742F7BF7EFF164 /* PopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopView.release.xcconfig; sourceTree = "<group>"; };
+		0EB68135B21F6CCD9B43189169B361DD /* SymbolWithLocalizations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolWithLocalizations.swift; path = Sources/SFSafeSymbols/Symbols/SymbolWithLocalizations.swift; sourceTree = "<group>"; };
+		0EC24635AAF83A481429CF01D901B452 /* Pods-PopView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopView_Example-umbrella.h"; sourceTree = "<group>"; };
+		14EE21E692609116A36E6C77E42F5FD8 /* SFSymbol+2.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+2.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+2.1.swift"; sourceTree = "<group>"; };
+		18408B76BC99172F5AAFEE491A25F289 /* SFSymbol+1.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+1.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+1.0.swift"; sourceTree = "<group>"; };
+		1E0CEF9C54D9539D3DA7D21F3F1A37E5 /* SFSafeSymbols */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFSafeSymbols; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAD1FA2302AFE37C48DA23518F9803D /* Pods-PopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2003A9B52FF2D0974B364DB4739887CF /* SFSymbol+1.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+1.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+1.1.swift"; sourceTree = "<group>"; };
+		2037D882016ED0B71419D93A6580221C /* PopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopView-dummy.m"; sourceTree = "<group>"; };
+		2CDF43AD27CF3459BE5F3BADE4FDA871 /* Pods-PopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopView_Example-dummy.m"; sourceTree = "<group>"; };
+		2F41CF0D2C04376E6113DB3919617E5C /* Pods-PopView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F9D29EF1D9152B72FAD84BF10CDB0F6 /* PopView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopView; path = PopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F381308E43762010214153C9A97398 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		32BD1538C2397C49B9694928867B2332 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIImageExtension.swift; sourceTree = "<group>"; };
+		36DE7F673819103A0F9B00FC6BB9D580 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A04347F2F229CAB76627E599DE3D0C0 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		3B0AB168D1AABB5E086C099DECD189AD /* SFSymbol+2.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+2.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+2.0.swift"; sourceTree = "<group>"; };
+		3BC426A461B1312F238D342A2205EBC7 /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplicationShortcutIconExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
+		3EF693F83087C7CE64AF6D65B2F2FD92 /* SFSymbol+AllSymbols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols.swift"; sourceTree = "<group>"; };
+		41EC2991171D0626DCEEF29A30CC8390 /* SFSafeSymbols-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSafeSymbols-umbrella.h"; sourceTree = "<group>"; };
+		460A031E1AEB202FF05FBDC53D711522 /* Pods-PopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53291C32A17C244BBAC2EAD8D4482B56 /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+2.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
+		56ACB92499ED5A9A5E93D90F719AFDE5 /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIImageExtension.swift; path = Sources/SFSafeSymbols/Initializers/SwiftUI/SwiftUIImageExtension.swift; sourceTree = "<group>"; };
+		5C4ACAEE5B1250B64BAB6D57174AD6F7 /* SFSymbol+AllSymbols+2.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+2.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+2.1.swift"; sourceTree = "<group>"; };
+		6143D188B5689C20CB984C2CEA145972 /* Pods-PopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		65A9E42E04CB4407AFDA9A3DB7827699 /* UIButtonExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = Sources/SFSafeSymbols/Initializers/UIKit/UIButtonExtension.swift; sourceTree = "<group>"; };
+		67949D93E5FA4431DD2A855608C50969 /* SFSymbol+AllSymbols+3.3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+3.3.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+3.3.swift"; sourceTree = "<group>"; };
+		6C96165C6555EE6EFADBEFE07A441DE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F362EFE19A939D22099C07896987BDD /* SFSafeSymbols.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSafeSymbols.release.xcconfig; sourceTree = "<group>"; };
+		6F4A813E4F2D58245F6240208CA6E0D3 /* SymbolLocalizations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolLocalizations.swift; path = Sources/SFSafeSymbols/Symbols/SymbolLocalizations.swift; sourceTree = "<group>"; };
+		7072B4FBAA51FA853C4795FA1623076C /* PopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopView.modulemap; sourceTree = "<group>"; };
+		74D7AC143D506352A401F26B5F1852B6 /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
+		751C4CDB83C0F675AB5DFB6FA61BF252 /* SFSafeSymbols.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFSafeSymbols.modulemap; sourceTree = "<group>"; };
+		7993E2479BA6DD7E1AECE36AF0D645F9 /* PopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopView-prefix.pch"; sourceTree = "<group>"; };
+		7A24354813A412519D98287D1ADA1E9E /* SFSymbol+3.2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+3.2.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+3.2.swift"; sourceTree = "<group>"; };
+		7BC1D86AD90DDD660BD2D94B8BC8F026 /* SFSymbol+AllSymbols+1.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+1.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+1.0.swift"; sourceTree = "<group>"; };
+		7CBB06BF1FE19149635783B3C70F1F5C /* SFSymbol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFSymbol.swift; path = Sources/SFSafeSymbols/Symbols/SFSymbol.swift; sourceTree = "<group>"; };
+		83DA25E27C81D7D34A7BB3BEFD1CA4A9 /* Pods-PopView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopView_Example-Info.plist"; sourceTree = "<group>"; };
+		8637D293A049227C1E7E4CF50EEF2E5C /* PopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopView.debug.xcconfig; sourceTree = "<group>"; };
+		8742A550CBE092D8815214FFAAD3EC1F /* SFSymbol+AllSymbols+3.2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+3.2.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+3.2.swift"; sourceTree = "<group>"; };
+		8A273530D0650C83A97D35B7330ECD1A /* SFSymbol+AllSymbols+3.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+3.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+3.1.swift"; sourceTree = "<group>"; };
+		8E46866E751ECFD80BB1B8BFE7325E24 /* SFSafeSymbols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSafeSymbols.debug.xcconfig; sourceTree = "<group>"; };
+		8E6769C0DA9294EF623E69AE11D6D2A9 /* Pods-PopView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopView_Example.modulemap"; sourceTree = "<group>"; };
+		9106808C29595EBB99ABC116576CF492 /* PopView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopView-umbrella.h"; sourceTree = "<group>"; };
+		91B7D1E62E1DB2CF522711F2F3EFF938 /* SFSymbol+AllSymbols+3.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+3.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+3.0.swift"; sourceTree = "<group>"; };
+		91F9802873397AC3766FC62622872034 /* SFSafeSymbols-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFSafeSymbols-dummy.m"; sourceTree = "<group>"; };
+		9317E4947CA2FE1B5D5999034C09CCA7 /* Then */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9612B68ADB82114E23ACE3C73CA15A5B /* SFSymbol+3.0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+3.0.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+3.0.swift"; sourceTree = "<group>"; };
+		9674A65903BFC551B47FEFE512F9D021 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		97B598D552B4A5679D4FA3DC76D18255 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		9AFBA3439ECA534FF3C16FD62E12A08E /* SFSafeSymbols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSafeSymbols-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4B0D3CAB4602AEB9B6A461CBB47ABA /* Pods-PopView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PopView_Example"; path = Pods_PopView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15E01B44EB8BCA40DCD16267210446B /* PopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B51977D17CBE1276C18356A0F6B42055 /* SFSymbol+AllSymbols+1.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+AllSymbols+1.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+AllSymbols+1.1.swift"; sourceTree = "<group>"; };
+		B5E06C911B9E0D3C7361DE1BE027D9A7 /* SFSymbol+2.2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+2.2.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+2.2.swift"; sourceTree = "<group>"; };
+		B82AE1558C5612349DB3DD2BD3FE4720 /* SFSymbol+3.3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+3.3.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+3.3.swift"; sourceTree = "<group>"; };
+		BE01C5F2BEC7585974E4B53B27BD920E /* PopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopView.swift; path = PopView/Classes/PopView.swift; sourceTree = "<group>"; };
+		C6D6735A91D5CC6ED1BBA793D1143AD8 /* SFSymbol+3.1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFSymbol+3.1.swift"; path = "Sources/SFSafeSymbols/Symbols/SFSymbol+3.1.swift"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D57BBD7403319264F9862F163094FB73 /* SFSafeSymbols-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFSafeSymbols-Info.plist"; sourceTree = "<group>"; };
+		D96BBDF8D372FF502FC20E5415EF677D /* Pods-PopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8639EA11B334A4BF2310B7481813A35 /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBE0194B6E66324D95E315673E3061A1 /* SwiftUILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUILabelExtension.swift; path = Sources/SFSafeSymbols/Initializers/SwiftUI/SwiftUILabelExtension.swift; sourceTree = "<group>"; };
+		EED5B07ACC795788C69417F6EE25F906 /* NSImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImageExtension.swift; path = Sources/SFSafeSymbols/Initializers/AppKit/NSImageExtension.swift; sourceTree = "<group>"; };
+		F32B60F7B0AE5EA0A6DD1C44C33F7D56 /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6F34B6A0DA7751B5C88897802004F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B6C0AB5B1C553D07F9640C109C64A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A62ABC7EC73E8C1E3447C92091E2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA1BA5E9AE9ECA17DD4E60DD065BA07 /* Foundation.framework in Frameworks */,
+				2E5356DAB8171FE0321B5BAFC2499A39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4881F8C5DB0715A7A7AA3350CA54DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C4108D4225F090069F5E8539D69774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EF7E0FE6731FF1FF614D9F7DE34632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8FBB1FD4F4BDE3DD782D6A168F58DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DFD472ED887DC25773E54C83E61E874 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36DE7F673819103A0F9B00FC6BB9D580 /* LICENSE */,
+				B15E01B44EB8BCA40DCD16267210446B /* PopView.podspec */,
+				6C96165C6555EE6EFADBEFE07A441DE2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		42BAC3FDF1B9CAE3DFA5BBB7AA098556 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				729BF8EA8FE67673B39D0B1BBFF1D30B /* Pods-PopView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		467C3DFFA20A0AC850CA9406BE852EB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7072B4FBAA51FA853C4795FA1623076C /* PopView.modulemap */,
+				2037D882016ED0B71419D93A6580221C /* PopView-dummy.m */,
+				017B01BC2C04249B40E56962E4F8BA82 /* PopView-Info.plist */,
+				7993E2479BA6DD7E1AECE36AF0D645F9 /* PopView-prefix.pch */,
+				9106808C29595EBB99ABC116576CF492 /* PopView-umbrella.h */,
+				8637D293A049227C1E7E4CF50EEF2E5C /* PopView.debug.xcconfig */,
+				0D4D1D2BD174FB2195742F7BF7EFF164 /* PopView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PopView";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		609B0C0E19251E4C139BA160ED084B95 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				BE01C5F2BEC7585974E4B53B27BD920E /* PopView.swift */,
+				2DFD472ED887DC25773E54C83E61E874 /* Pod */,
+				467C3DFFA20A0AC850CA9406BE852EB5 /* Support Files */,
+			);
+			name = PopView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		729BF8EA8FE67673B39D0B1BBFF1D30B /* Pods-PopView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E6769C0DA9294EF623E69AE11D6D2A9 /* Pods-PopView_Example.modulemap */,
+				D96BBDF8D372FF502FC20E5415EF677D /* Pods-PopView_Example-acknowledgements.markdown */,
+				460A031E1AEB202FF05FBDC53D711522 /* Pods-PopView_Example-acknowledgements.plist */,
+				2CDF43AD27CF3459BE5F3BADE4FDA871 /* Pods-PopView_Example-dummy.m */,
+				2F41CF0D2C04376E6113DB3919617E5C /* Pods-PopView_Example-frameworks.sh */,
+				83DA25E27C81D7D34A7BB3BEFD1CA4A9 /* Pods-PopView_Example-Info.plist */,
+				0EC24635AAF83A481429CF01D901B452 /* Pods-PopView_Example-umbrella.h */,
+				6143D188B5689C20CB984C2CEA145972 /* Pods-PopView_Example.debug.xcconfig */,
+				1FAD1FA2302AFE37C48DA23518F9803D /* Pods-PopView_Example.release.xcconfig */,
+			);
+			name = "Pods-PopView_Example";
+			path = "Target Support Files/Pods-PopView_Example";
+			sourceTree = "<group>";
+		};
+		8775AB490F4680EFCBCE3F8B79EF6E7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609B0C0E19251E4C139BA160ED084B95 /* PopView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96ECA22DFFC54877A36A95A8AA96D852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B0D3CAB4602AEB9B6A461CBB47ABA /* Pods-PopView_Example */,
+				2F9D29EF1D9152B72FAD84BF10CDB0F6 /* PopView */,
+				1E0CEF9C54D9539D3DA7D21F3F1A37E5 /* SFSafeSymbols */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981A865F9CE488D9CAA5C2B8F6DC3C85 /* SFSafeSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				EED5B07ACC795788C69417F6EE25F906 /* NSImageExtension.swift */,
+				7CBB06BF1FE19149635783B3C70F1F5C /* SFSymbol.swift */,
+				18408B76BC99172F5AAFEE491A25F289 /* SFSymbol+1.0.swift */,
+				2003A9B52FF2D0974B364DB4739887CF /* SFSymbol+1.1.swift */,
+				3B0AB168D1AABB5E086C099DECD189AD /* SFSymbol+2.0.swift */,
+				14EE21E692609116A36E6C77E42F5FD8 /* SFSymbol+2.1.swift */,
+				B5E06C911B9E0D3C7361DE1BE027D9A7 /* SFSymbol+2.2.swift */,
+				9612B68ADB82114E23ACE3C73CA15A5B /* SFSymbol+3.0.swift */,
+				C6D6735A91D5CC6ED1BBA793D1143AD8 /* SFSymbol+3.1.swift */,
+				7A24354813A412519D98287D1ADA1E9E /* SFSymbol+3.2.swift */,
+				B82AE1558C5612349DB3DD2BD3FE4720 /* SFSymbol+3.3.swift */,
+				3EF693F83087C7CE64AF6D65B2F2FD92 /* SFSymbol+AllSymbols.swift */,
+				7BC1D86AD90DDD660BD2D94B8BC8F026 /* SFSymbol+AllSymbols+1.0.swift */,
+				B51977D17CBE1276C18356A0F6B42055 /* SFSymbol+AllSymbols+1.1.swift */,
+				53291C32A17C244BBAC2EAD8D4482B56 /* SFSymbol+AllSymbols+2.0.swift */,
+				5C4ACAEE5B1250B64BAB6D57174AD6F7 /* SFSymbol+AllSymbols+2.1.swift */,
+				01399D2930A4C51E8890B9752148C4E2 /* SFSymbol+AllSymbols+2.2.swift */,
+				91B7D1E62E1DB2CF522711F2F3EFF938 /* SFSymbol+AllSymbols+3.0.swift */,
+				8A273530D0650C83A97D35B7330ECD1A /* SFSymbol+AllSymbols+3.1.swift */,
+				8742A550CBE092D8815214FFAAD3EC1F /* SFSymbol+AllSymbols+3.2.swift */,
+				67949D93E5FA4431DD2A855608C50969 /* SFSymbol+AllSymbols+3.3.swift */,
+				56ACB92499ED5A9A5E93D90F719AFDE5 /* SwiftUIImageExtension.swift */,
+				EBE0194B6E66324D95E315673E3061A1 /* SwiftUILabelExtension.swift */,
+				6F4A813E4F2D58245F6240208CA6E0D3 /* SymbolLocalizations.swift */,
+				0EB68135B21F6CCD9B43189169B361DD /* SymbolWithLocalizations.swift */,
+				3BC426A461B1312F238D342A2205EBC7 /* UIApplicationShortcutIconExtension.swift */,
+				65A9E42E04CB4407AFDA9A3DB7827699 /* UIButtonExtension.swift */,
+				32BD1538C2397C49B9694928867B2332 /* UIImageExtension.swift */,
+				A17DE76E4EC34E734D2C72D2576E0095 /* Support Files */,
+			);
+			name = SFSafeSymbols;
+			path = SFSafeSymbols;
+			sourceTree = "<group>";
+		};
+		A17DE76E4EC34E734D2C72D2576E0095 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				751C4CDB83C0F675AB5DFB6FA61BF252 /* SFSafeSymbols.modulemap */,
+				91F9802873397AC3766FC62622872034 /* SFSafeSymbols-dummy.m */,
+				D57BBD7403319264F9862F163094FB73 /* SFSafeSymbols-Info.plist */,
+				9AFBA3439ECA534FF3C16FD62E12A08E /* SFSafeSymbols-prefix.pch */,
+				41EC2991171D0626DCEEF29A30CC8390 /* SFSafeSymbols-umbrella.h */,
+				8E46866E751ECFD80BB1B8BFE7325E24 /* SFSafeSymbols.debug.xcconfig */,
+				6F362EFE19A939D22099C07896987BDD /* SFSafeSymbols.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFSafeSymbols";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8775AB490F4680EFCBCE3F8B79EF6E7E /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DA4EEF96BB22174B1CAD8B5D527D3243 /* Pods */,
+				96ECA22DFFC54877A36A95A8AA96D852 /* Products */,
+				42BAC3FDF1B9CAE3DFA5BBB7AA098556 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4EEF96BB22174B1CAD8B5D527D3243 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				981A865F9CE488D9CAA5C2B8F6DC3C85 /* SFSafeSymbols */,
+				ED27DE3D0611A8718C3C209E1C1BB4B2 /* Then */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2725C5F267DFA3D8E511158FBA7DAFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32B60F7B0AE5EA0A6DD1C44C33F7D56 /* Then.modulemap */,
+				3A04347F2F229CAB76627E599DE3D0C0 /* Then-dummy.m */,
+				00DE9679A51CA4402E3F7FE9F117E108 /* Then-Info.plist */,
+				97B598D552B4A5679D4FA3DC76D18255 /* Then-prefix.pch */,
+				9674A65903BFC551B47FEFE512F9D021 /* Then-umbrella.h */,
+				74D7AC143D506352A401F26B5F1852B6 /* Then.debug.xcconfig */,
+				E8639EA11B334A4BF2310B7481813A35 /* Then.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		ED27DE3D0611A8718C3C209E1C1BB4B2 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				31F381308E43762010214153C9A97398 /* Then.swift */,
+				E2725C5F267DFA3D8E511158FBA7DAFB /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18984DA1BC1AD3B5C7D286A9456B8762 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885CCDA6AE02D3F86E781DBD046ABDD2 /* PopView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB3733DBF3C983045299C29F27D84F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0ABF8D633CE7E3072A6DFBFD1AC7F8 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE12EFF50740F24D3BDFD264D475AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2141C56F9C9541B483C2252034A14B4F /* Pods-PopView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6703630CA338B578E8F826832DDAE78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13938FF0703CDD30588165725F2D64 /* SFSafeSymbols-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1282B8776A6EFDCCBE1858E8F673D0A4 /* SFSafeSymbols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D0DA2C04C58C61E97FADD54FA5A731 /* Build configuration list for PBXNativeTarget "SFSafeSymbols" */;
+			buildPhases = (
+				E6703630CA338B578E8F826832DDAE78 /* Headers */,
+				5238764E543A3C147A69F0184D61EA3A /* Sources */,
+				0E6F34B6A0DA7751B5C88897802004F5 /* Frameworks */,
+				D7F324EFB860E98C7343EF6689973280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFSafeSymbols;
+			productName = SFSafeSymbols;
+			productReference = 1E0CEF9C54D9539D3DA7D21F3F1A37E5 /* SFSafeSymbols */;
+			productType = "com.apple.product-type.framework";
+		};
+		3133F07C1C1A25B58714E9B14D32E7B3 /* Pods-PopView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383F84BACAEFFB339D5EED453C44092D /* Build configuration list for PBXNativeTarget "Pods-PopView_Example" */;
+			buildPhases = (
+				C8CE12EFF50740F24D3BDFD264D475AE /* Headers */,
+				B842DB3494BC3445D4704DC5790A44D7 /* Sources */,
+				F6EF7E0FE6731FF1FF614D9F7DE34632 /* Frameworks */,
+				339A58012F538A3B090DE2C1EF45017C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8146EBC8D01ECE1A52D148F0D8EFB022 /* PBXTargetDependency */,
+				A79F1E22709C25824C4C7FAAC18A9AE7 /* PBXTargetDependency */,
+				D3A601CBC6B976935DC69092B49452C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PopView_Example";
+			productName = Pods_PopView_Example;
+			productReference = AD4B0D3CAB4602AEB9B6A461CBB47ABA /* Pods-PopView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B67449D3A4C9F2EB45A47CE2D4DEF7 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				91AB3733DBF3C983045299C29F27D84F /* Headers */,
+				EC431BE2D52328DCBB7F3FF309A941FB /* Sources */,
+				AC4881F8C5DB0715A7A7AA3350CA54DC /* Frameworks */,
+				AA33C1488A6D7AB52C099D600E9D2EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 9317E4947CA2FE1B5D5999034C09CCA7 /* Then */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC89DC039C58D8AB2F9D8735EABB6B8F /* PopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA430151FA460F7349DAC18C26E39F3 /* Build configuration list for PBXNativeTarget "PopView" */;
+			buildPhases = (
+				18984DA1BC1AD3B5C7D286A9456B8762 /* Headers */,
+				49FADDA425C421DE196565B5B882D4CA /* Sources */,
+				66A62ABC7EC73E8C1E3447C92091E2E7 /* Frameworks */,
+				FC0EF13B5F5B4438A672EFCFE12AF9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39513446E5B5706D4D97A9BDCC7B790A /* PBXTargetDependency */,
+			);
+			name = PopView;
+			productName = PopView;
+			productReference = 2F9D29EF1D9152B72FAD84BF10CDB0F6 /* PopView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 96ECA22DFFC54877A36A95A8AA96D852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3133F07C1C1A25B58714E9B14D32E7B3 /* Pods-PopView_Example */,
+				EC89DC039C58D8AB2F9D8735EABB6B8F /* PopView */,
+				1282B8776A6EFDCCBE1858E8F673D0A4 /* SFSafeSymbols */,
+				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339A58012F538A3B090DE2C1EF45017C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA33C1488A6D7AB52C099D600E9D2EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F324EFB860E98C7343EF6689973280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0EF13B5F5B4438A672EFCFE12AF9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FADDA425C421DE196565B5B882D4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9318B1684B940F743E79F8AE009747 /* PopView.swift in Sources */,
+				C2EEEC6B170326DB75A007E54A39A35F /* PopView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5238764E543A3C147A69F0184D61EA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4BCEF8FF546E7025EFFC754977A948 /* NSImageExtension.swift in Sources */,
+				6EB257B756FA08C77A32331E7C3269FE /* SFSafeSymbols-dummy.m in Sources */,
+				D2A9DE0C3A55FF00BBF3AEF031367879 /* SFSymbol.swift in Sources */,
+				554100C256B1E92286A7A6BB57CB410E /* SFSymbol+1.0.swift in Sources */,
+				FBD934C09A0AC21F278703455047D71E /* SFSymbol+1.1.swift in Sources */,
+				5F68C737D9ADFA52133DB89CABE052C6 /* SFSymbol+2.0.swift in Sources */,
+				6DEC81F2845EFA3A7B10984C8FBA98BC /* SFSymbol+2.1.swift in Sources */,
+				8517B7F7212B597F80A71617A6FAB6FB /* SFSymbol+2.2.swift in Sources */,
+				CB2C693347E87D62E832D73D1C0A379E /* SFSymbol+3.0.swift in Sources */,
+				A114D23A6598CE68B1F6C079BC6EB3CD /* SFSymbol+3.1.swift in Sources */,
+				8FFEACF203811664B2FDA2FE0C0AE6F5 /* SFSymbol+3.2.swift in Sources */,
+				1FAC7DC7B9E5D02802FAB2E398D99AB3 /* SFSymbol+3.3.swift in Sources */,
+				780AE74FDA2A8813299916A9520AAECC /* SFSymbol+AllSymbols.swift in Sources */,
+				3EB2BE8562EE2F5A0008C9A124F9CDC4 /* SFSymbol+AllSymbols+1.0.swift in Sources */,
+				D28252022C797C79D4156D054D4B32DF /* SFSymbol+AllSymbols+1.1.swift in Sources */,
+				59104B7946880302EC3BBD903BD22316 /* SFSymbol+AllSymbols+2.0.swift in Sources */,
+				CDF5FBEC313E3FE79EF39234534D7498 /* SFSymbol+AllSymbols+2.1.swift in Sources */,
+				E8087E2C6A8C9D1CFE5E753F04F0EF0B /* SFSymbol+AllSymbols+2.2.swift in Sources */,
+				17B3938AE56C955105C94B02A9E94A49 /* SFSymbol+AllSymbols+3.0.swift in Sources */,
+				7409EF68CE4D650B3EBF13914AA7419D /* SFSymbol+AllSymbols+3.1.swift in Sources */,
+				77036F896B70B09F32E0C55491FF3873 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
+				EFA667F9E4CD9886C132CCDDB014E5E0 /* SFSymbol+AllSymbols+3.3.swift in Sources */,
+				CA5B8C830BE49E84A5DB22046251145C /* SwiftUIImageExtension.swift in Sources */,
+				56CC33575296048F34D8A04C7DE8F9BA /* SwiftUILabelExtension.swift in Sources */,
+				77AA424D6D238584808E2FF8333738C7 /* SymbolLocalizations.swift in Sources */,
+				E833AAB76D7B758328C50FDE038A364F /* SymbolWithLocalizations.swift in Sources */,
+				D60614D98D7F7D2B1125870B1EA7B168 /* UIApplicationShortcutIconExtension.swift in Sources */,
+				B4B16DD0AF7E8A321E50EBC78EED320C /* UIButtonExtension.swift in Sources */,
+				46E3CD6BD31D8CE3182C1686BF64C698 /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B842DB3494BC3445D4704DC5790A44D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8B5E3A0C487D948280653113044C92 /* Pods-PopView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC431BE2D52328DCBB7F3FF309A941FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE947F2CAD875D561F81DE275A0671CD /* Then.swift in Sources */,
+				FB33F46E0E91812F1225566C874F2D2D /* Then-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39513446E5B5706D4D97A9BDCC7B790A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 0EAAA2C051679294E6326B18CF620773 /* PBXContainerItemProxy */;
+		};
+		8146EBC8D01ECE1A52D148F0D8EFB022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopView;
+			target = EC89DC039C58D8AB2F9D8735EABB6B8F /* PopView */;
+			targetProxy = 7E22D3B15C471204C6009F6FA0E9DB5F /* PBXContainerItemProxy */;
+		};
+		A79F1E22709C25824C4C7FAAC18A9AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFSafeSymbols;
+			target = 1282B8776A6EFDCCBE1858E8F673D0A4 /* SFSafeSymbols */;
+			targetProxy = 4E091DD83C3AF9BDA0C77692A366B918 /* PBXContainerItemProxy */;
+		};
+		D3A601CBC6B976935DC69092B49452C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 7DB57A336E59800B580B921407E29E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE58F515CAAC7FF65CEF5D3FAE78AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D7AC143D506352A401F26B5F1852B6 /* Then.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D7FAC82DBC0815AF957632DEA0EB892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8639EA11B334A4BF2310B7481813A35 /* Then.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65D40EBA708B83B3795097FB4AE75B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8637D293A049227C1E7E4CF50EEF2E5C /* PopView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopView/PopView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopView/PopView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopView/PopView.modulemap";
+				PRODUCT_MODULE_NAME = PopView;
+				PRODUCT_NAME = PopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B195B7FE950FA950F8E9C4F0F70330BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAD1FA2302AFE37C48DA23518F9803D /* Pods-PopView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopView_Example/Pods-PopView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopView_Example/Pods-PopView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2A5F0910E0AF1180EE13C167820C374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4D1D2BD174FB2195742F7BF7EFF164 /* PopView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopView/PopView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopView/PopView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopView/PopView.modulemap";
+				PRODUCT_MODULE_NAME = PopView;
+				PRODUCT_NAME = PopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E02409D291FD90A95F4C9ECF9B441F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F362EFE19A939D22099C07896987BDD /* SFSafeSymbols.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFSafeSymbols/SFSafeSymbols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFSafeSymbols/SFSafeSymbols-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFSafeSymbols/SFSafeSymbols.modulemap";
+				PRODUCT_MODULE_NAME = SFSafeSymbols;
+				PRODUCT_NAME = SFSafeSymbols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E71F20AD4460F9E59F931340605D036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E46866E751ECFD80BB1B8BFE7325E24 /* SFSafeSymbols.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFSafeSymbols/SFSafeSymbols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFSafeSymbols/SFSafeSymbols-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFSafeSymbols/SFSafeSymbols.modulemap";
+				PRODUCT_MODULE_NAME = SFSafeSymbols;
+				PRODUCT_NAME = SFSafeSymbols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8070CE34131E140FA5ACA18BF2CC748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6143D188B5689C20CB984C2CEA145972 /* Pods-PopView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopView_Example/Pods-PopView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopView_Example/Pods-PopView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B67449D3A4C9F2EB45A47CE2D4DEF7 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE58F515CAAC7FF65CEF5D3FAE78AA6 /* Debug */,
+				3D7FAC82DBC0815AF957632DEA0EB892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383F84BACAEFFB339D5EED453C44092D /* Build configuration list for PBXNativeTarget "Pods-PopView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8070CE34131E140FA5ACA18BF2CC748 /* Debug */,
+				B195B7FE950FA950F8E9C4F0F70330BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA430151FA460F7349DAC18C26E39F3 /* Build configuration list for PBXNativeTarget "PopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D40EBA708B83B3795097FB4AE75B2C /* Debug */,
+				D2A5F0910E0AF1180EE13C167820C374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D0DA2C04C58C61E97FADD54FA5A731 /* Build configuration list for PBXNativeTarget "SFSafeSymbols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71F20AD4460F9E59F931340605D036E /* Debug */,
+				E02409D291FD90A95F4C9ECF9B441F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

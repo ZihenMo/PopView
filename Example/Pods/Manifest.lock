@@ -1,0 +1,27 @@
+PODS:
+  - PopView (0.1.0):
+    - Then (~> 3.0)
+  - SFSafeSymbols (3.3.2)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - PopView (from `../`)
+  - SFSafeSymbols (~> 3.3.2)
+
+SPEC REPOS:
+  trunk:
+    - SFSafeSymbols
+    - Then
+
+EXTERNAL SOURCES:
+  PopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PopView: 9357170598209f5dbd8301c627adde88f35d4380
+  SFSafeSymbols: d06fdfe6e89b98f5cecfd9b0b59bd31f35981373
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 24353fbf2042fe7afc5451e524bcdd2c0a870629
+
+COCOAPODS: 1.11.3

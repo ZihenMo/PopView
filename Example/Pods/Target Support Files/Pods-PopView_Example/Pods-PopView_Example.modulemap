@@ -1,0 +1,6 @@
+framework module Pods_PopView_Example {
+  umbrella header "Pods-PopView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

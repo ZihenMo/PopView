@@ -1,0 +1,6 @@
+framework module PopView {
+  umbrella header "PopView-umbrella.h"
+
+  export *
+  module * { export * }
+}
